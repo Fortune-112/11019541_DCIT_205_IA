@@ -1,1 +1,88 @@
- 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPUTER SCIENCE WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="image/comScience_logo.png" alt="CS logo" height="50"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CATALOG</a></li>
+                        <li><a href="">RESOURCES</a></li>
+                        <li><a href="">EVENTS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="">STAFF PROFILES</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        
+            <div class="text-box">
+                <h1>The Starting Point For Computer Science Education</h1>
+                <p>To produce the best prepared Computer Science graduates and IT professionals possible by utilizing a well-equipped department with the top researchers, qualified workers and cutting-edge equipment. 
+                    <br> We are providing high-quality computer science and information technology education through <br>the use of the best researchers, qualified professionals and innovative resources.</p>
+                    <a href="" class="hero-btn">VISIT US TO KNOW MORE</a>
+            </div>
+
+
+        </section>
+
+     <!-------course------>
+     <section class="course">
+        <h1>PROGRAMMES</h1>
+        <p>In order to capitalize on the opportunities presented by this technologically advanced period, it is imperative that you gain new IT skills that will serve as a career accelerator. Due to the years of experience of our professors, students get the opportunity to learn from the greatest. Some of the programs our department offers are listed below. Apply right away!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Undergraduate programmes</h3>
+                <p>Gain entry to highly sought-after technological careers with a top-notch A bachelor's degree in computer science and information technology</p>
+            </div>
+                <div class="course-col">
+                    <h3>MPhil and Msc programmes</h3>
+                    <p>Offering a world-class graduate education with a distinctive combination of innovative research and practical experience</p>
+             </div>
+                <div class="course-col">
+                    <h3>PhD programmes</h3>
+                    <p>Our PHDs lead the endeavor to expand the boundaries of scholarship through excellent industry-relevant research. </p>
+                </div>
+
+        </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+<!-------JavaScript for toggle menu------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+    </body>
+</html>
+
