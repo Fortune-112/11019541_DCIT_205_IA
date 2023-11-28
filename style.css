@@ -467,3 +467,116 @@ text-align: left;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+/* Additional styles for the Resources page */
+main {
+    padding: 20px;
+}
+
+.resource {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.resource img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.resource-details {
+    flex: 1;
+}
+
+.resource h2 {
+    color: #333;
+}
+
+.resource p {
+    margin: 5px 0;
+}
+
+/* Style for the entire page */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Adjustments for responsiveness */
+@media screen and (max-width: 700px){
+    .resource {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .resource img {
+        margin-bottom: 10px;
+    }
+}
+
+.staffs{
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.staffs h2{
+    color: #333;
+    text-align: center;
+}
+
+.staffs p{
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.staffs img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+/* Adjustments for responsiveness */
+@media screen and (max-width: 700px){
+    .staffs{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.content {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #333;
+    text-align: center;
+}
+
+.faculty-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faculty-member img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.faculty-member h3 {
+    color: #333;
+}
+
+.faculty-member p {
+    color: #555;
+    line-height: 1.6;
+}

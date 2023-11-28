@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPUTER SCIENCE WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/comScience_logo.png" alt="CS logo" height="50"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="catalog.html">CATALOG</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                        <li><a href="resources.html">RESOURCES</a></li>
+                        <li><a href="event.html">EVENTS</a></li>
+                        <li><a href="library.html">LIBRARY</a></li>
+                        <li><a href="staff.html">STAFF</a></li>
+                        <li><a href="faculty.html">FACULTY</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>STAFF</h1>
+            </div>
+
+        </section>
+
+       
+        <section class="staffs">
+
+            <main>
+                <section>
+                    <h2>Meet Our Staff</h2>
+                    <p>Welcome to the Staff's page.</p>
+                    <p>Welcome to the Staff section of the website.
+                        A varied and skilled team of staff members supports our Computer Science Department. They are critical to the department's seamless running, from administrative tasks to technological support for students and teachers.
+                         Our employees are committed to fostering a positive, collaborative atmosphere for everyone in the department. Whether you have enrollment inquiries, require help with technical issues, or need general advice, our staff is ready to assist you.
+                         If you have any questions, please contact one of our staff members. They are dedicated to providing a positive experience for all members of our academic community.
+                </section>
+                <img src="image/staff.jpg" alt="Staff Image">
+               
+            </main>
+
+        </section>
+
+<!------------footer------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is the era of information technology, with computer science at its foundation.Thus, 
+        if society wants to reap the full benefits of information technology <br> and experience rapid economic advancement, 
+        studying computer science is essential. <br>
+        The study and creation of applications that enable our daily use of computers, 
+        the software systems that underpin these applications, <br> and the techniques and procedures employed to create reliably accurate,
+         morally upright, and consistent systems and applications are all included in computer science.
+         <br> 
+        Employers who hire Computer Scientists expect competent programmers with knowledge of modern techniques and tools and 
+        the ability to apply sound engineering principles to the development, construction, and maintenance of their systems. 
+        The core competency of Computer Science is computer programming</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+           </div>
+           <p>Made With <i class="fa fa-heart-o"></i> by Diapim Fortune Akpene</p>
+
+
+</section>
+
+
+
+
+<!------------Javascript for Toggle Menu---------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
